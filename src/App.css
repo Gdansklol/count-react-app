@@ -2,52 +2,12 @@
   text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.count-container{
-  margin-top: 20%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
- 
-}
-
-.number-input {
-  display: flex;
-  flex-direction: row;
-  width:  10%;
-  height: 10vh;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-}
-.number-btn{
-  display: block;
-
-  margin-left: 10px;
- 
-}
-
-button:focus {
-  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
-}
-
-button:hover {
-  background-color: #65d126;
-  border: 2px solid white;
-  font-weight: 500;
+.main-content {
+  margin-top: 50px;
 }
